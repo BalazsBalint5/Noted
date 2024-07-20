@@ -1,2 +1,5 @@
-package com.bb.noted.domain;public enum Priority {
+package com.bb.noted.domain;
+
+public enum Priority {
+    LOW, MEDIUM, HIGH
 }
