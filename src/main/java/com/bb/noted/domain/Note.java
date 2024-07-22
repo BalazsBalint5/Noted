@@ -31,6 +31,7 @@ public final class Note {
     private LocalDate deadline;
 
     @Column(name = "priority")
+    @Enumerated(EnumType.STRING)
     private Priority priority;
 
     @Column(name = "note_color")
